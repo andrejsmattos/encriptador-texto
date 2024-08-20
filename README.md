@@ -11,7 +11,7 @@ O Decodificador de Texto é uma aplicação web que permite aos usuários encrip
 ## Como Utilizar
 1. **Clone o Repositório**:
    ```bash
-   git clone https://github.com/seu-usuario/decodificador-de-texto.git
+   git clone https://github.com/andrejsmattos/encriptador-texto
 2. **Acesse a Página**: Abra o arquivo `index.html` em um navegador web.
 3. **Digite o Texto**: Insira o texto que deseja encriptar ou desencriptar na área de texto fornecida.
 4. **Clique no Botão**: Utilize os botões disponíveis para encriptar ou desencriptar o texto.

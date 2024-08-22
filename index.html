@@ -1,43 +1,80 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./styles/style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-  <title>Decodificador de Texto</title>
-</head>
-<body>
-  <header>
-    <a class="cabecalho__logo" href="index.html">
-      <img id="logo-alura" src="./assets/logo-alura.png" alt="Logo da Alura">
-    </a>
-  </header>
-  <main class="main__container">
-    <section class="input__container">
-      <textarea id="input__texto" type="text" placeholder="Digite seu texto"></textarea>
-      <div class="atencao-container">
-        <img id="atencao-icone" src="./assets/atencao-icone.png" alt="Ícone atenção">
-        <p class="input__texto__rodape">Apenas letras minúsculas e sem acento.</p>
-      </div>
-      <div class="botoes__container">
-        <button id="btn_cripto" class="botao botao__primario" onclick="btnEncriptar()">Criptografar</button>
-        <button id="btn_decripto" class="botao botao__secundario" onclick="btnDesencriptar()">Descriptografar</button>
-      </div>
-    </section>
-    <section class="output">
-      <textarea class="mensagem"></textarea>
-      <div class="sem__mensagem">
-        <h2 class="output__titulo">Nenhuma mensagem encontrada</h2>
-        <p class="output__texto">Digite um texto que você deseja criptografar ou descriptografar.</p>
-      </div>
-      <button id="btn_copiar" class="botao botao__secundario" onclick="btnCopiar()">Copiar</button>
-    </section>
-  </main>
-  <footer class="rodape">
-    <p>Desenvolvido por André Mattos</p>
-  </footer>
-  <script src="./scripts/script.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Decodificador de Texto</title>
+  </head>
+  <body>
+    <header>
+      <a class="cabecalho__logo" href="index.html">
+        <img
+          id="logo-alura"
+          src="./assets/logo-alura.png"
+          alt="Logo da Alura"
+        />
+      </a>
+    </header>
+    <main class="main__container">
+      <section class="input__container">
+        <textarea
+          id="input__texto"
+          type="text"
+          placeholder="Digite seu texto"
+        ></textarea>
+        <div class="atencao-container">
+          <img
+            id="atencao-icone"
+            src="./assets/atencao-icone.png"
+            alt="Ícone atenção"
+          />
+          <p class="input__texto__rodape">
+            Apenas letras minúsculas e sem acento.
+          </p>
+        </div>
+        <div class="botoes__container">
+          <button
+            id="btn_cripto"
+            class="botao botao__primario"
+            onclick="btnEncriptar()"
+          >
+            Criptografar
+          </button>
+          <button
+            id="btn_decripto"
+            class="botao botao__secundario"
+            onclick="btnDesencriptar()"
+          >
+            Descriptografar
+          </button>
+        </div>
+      </section>
+      <section class="output__container">
+        <textarea class="mensagem"></textarea>
+        <div class="sem__mensagem">
+          <h2 class="output__titulo">Nenhuma mensagem encontrada</h2>
+          <p class="output__texto">
+            Digite um texto que você deseja criptografar ou descriptografar.
+          </p>
+        </div>
+        <button
+          id="btn_copiar"
+          class="botao botao__secundario"
+          onclick="btnCopiar()"
+        >
+          Copiar
+        </button>
+      </section>
+    </main>
+    <footer class="rodape">
+      <p>Desenvolvido por André Mattos</p>
+    </footer>
+    <script src="./scripts/script.js"></script>
+  </body>
 </html>

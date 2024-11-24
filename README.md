@@ -1,14 +1,27 @@
-# Decodificador de Texto
+# Decodificador de Texto 🔐
 
-## Descrição do Projeto
-O Decodificador de Texto é uma aplicação web que permite aos usuários encriptar e desencriptar mensagens de texto utilizando um conjunto específico de regras de substituição de caracteres. Este projeto foi desenvolvido como parte de um desafio de programação para praticar habilidades em HTML, CSS e JavaScript.
+[![HTML](https://img.shields.io/badge/HTML-5-orange.svg)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS](https://img.shields.io/badge/CSS-3-blue.svg)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow.svg)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
-## Funcionalidades
-- **Encriptar Texto**: Converte o texto inserido pelo usuário em uma versão encriptada utilizando regras específicas.
-- **Desencriptar Texto**: Converte o texto encriptado de volta ao seu formato original.
-- **Interface Intuitiva**: Uma interface simples e amigável para facilitar a interação do usuário.
+## 📋 Descrição
 
-## Como Utilizar
+O **Decodificador de Texto** é uma aplicação web desenvolvida para encriptar e desencriptar mensagens utilizando regras específicas de substituição de caracteres. O objetivo principal do projeto é praticar e consolidar habilidades em **HTML**, **CSS**, e **JavaScript**, através de uma interface intuitiva e funcional.
+
+## ✨ Funcionalidades
+
+- 🔒 **Encriptar Texto**: Converte mensagens utilizando um conjunto pré-definido de regras de substituição.
+- 🔓 **Desencriptar Texto**: Restaura mensagens encriptadas ao seu formato original.
+- 💻 **Interface Intuitiva**: Layout amigável e fácil de usar.
+
+## 🚀 Tecnologias Utilizadas
+
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+
+
+## 🛠️ Como Utilizar
 1. **Clone o Repositório**:
    ```bash
    git clone https://github.com/andrejsmattos/encriptador-texto
@@ -17,5 +30,5 @@ O Decodificador de Texto é uma aplicação web que permite aos usuários encrip
 4. **Clique no Botão**: Utilize os botões disponíveis para encriptar ou desencriptar o texto.
 5. **Visualize o Resultado**: O texto encriptado ou desencriptado será exibido na área de resultado.
 
-## Autores
+## 🤝 Autor
 - **André Mattos**: [https://linkedin.com/in/andrejsmattos](#)

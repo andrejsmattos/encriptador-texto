@@ -31,4 +31,6 @@ O **Decodificador de Texto** é uma aplicação web desenvolvida para encriptar 
 5. **Visualize o Resultado**: O texto encriptado ou desencriptado será exibido na área de resultado.
 
 ## 🤝 Autor
-- **André Mattos**: [https://linkedin.com/in/andrejsmattos](#)
+**André Mattos**: [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/andrejsmattos)
+
+

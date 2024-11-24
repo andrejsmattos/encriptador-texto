@@ -10,9 +10,9 @@ O **Decodificador de Texto** é uma aplicação web desenvolvida para encriptar 
 
 ## ✨ Funcionalidades
 
-- 🔒 **Encriptar Texto**: Converte mensagens utilizando um conjunto pré-definido de regras de substituição.
-- 🔓 **Desencriptar Texto**: Restaura mensagens encriptadas ao seu formato original.
-- 💻 **Interface Intuitiva**: Layout amigável e fácil de usar.
+- **Encriptar Texto**: Converte mensagens utilizando um conjunto pré-definido de regras de substituição.
+- **Desencriptar Texto**: Restaura mensagens encriptadas ao seu formato original.
+- **Interface Intuitiva**: Layout amigável e fácil de usar.
 
 ## 🚀 Tecnologias Utilizadas
 
